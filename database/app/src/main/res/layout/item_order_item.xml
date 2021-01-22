@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    tools:viewBindingIgnore="true">
+
+    <RelativeLayout
+        android:id="@+id/orderItem"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/orderItemNameFieldRec"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/orderItemQuantityFieldRec"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="Quantity" />
+
+        <TextView
+            android:id="@+id/orderItemUnitFieldRec"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/orderItemQuantityFieldRec"
+            android:layout_toRightOf="@+id/orderItemQuantityFieldRec"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="Unit" />
+
+        <ImageButton
+            android:id="@+id/orderItemDeleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@color/colorPrimary"
+            android:src="@android:drawable/ic_input_delete" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

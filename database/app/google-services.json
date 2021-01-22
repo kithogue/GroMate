@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "335530056729",
+    "firebase_url": "https://gromate-c18da-default-rtdb.firebaseio.com",
+    "project_id": "gromate-c18da",
+    "storage_bucket": "gromate-c18da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335530056729:android:8372fad2f5d7859bbf5e88",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335530056729-f30u7mdnkqkea9bn07363frva2ce22rf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY7ir8b6u4eQP00e2iyO7s0xo1sE58c-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335530056729-f30u7mdnkqkea9bn07363frva2ce22rf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
