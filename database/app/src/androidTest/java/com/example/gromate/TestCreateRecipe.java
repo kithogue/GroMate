@@ -169,48 +169,6 @@ public class TestCreateRecipe {
 
         onView(withId(R.id.ordersList)).check(new RecyclerViewItemCountAssertion(0));
 
-        /*
-        // Click new post button
-        ViewInteraction floatingActionButton = onView(
-                allOf(withId(R.id.fabNewPost), isDisplayed()));
-        floatingActionButton.perform(click());
-
-        // Enter post title
-        ViewInteraction appCompatEditText4 = onView(
-                allOf(withId(R.id.fieldTitle), isDisplayed()));
-        appCompatEditText4.perform(replaceText(postTitle));
-
-        // Enter post content
-        ViewInteraction appCompatEditText5 = onView(
-                allOf(withId(R.id.fieldBody), isDisplayed()));
-        appCompatEditText5.perform(replaceText(postContent));
-
-        // Click submit button
-        ViewInteraction floatingActionButton2 = onView(
-                allOf(withId(R.id.fabSubmitPost), isDisplayed()));
-        floatingActionButton2.perform(click());
-
-        // Navigate to "My Posts"
-        ViewInteraction appCompatTextView = onView(
-                allOf(withText(R.string.heading_my_posts), isDisplayed()));
-        appCompatTextView.perform(click());
-
-        // Check that the title is correct
-        ViewInteraction textView = onView(
-                allOf(withId(R.id.postTitle), withText(postTitle), isDisplayed()));
-        textView.check(matches(withText(postTitle)));
-
-        // Check that the content is correct
-        ViewInteraction textView2 = onView(
-                allOf(withId(R.id.postBody), withText(postContent), isDisplayed()));
-        textView2.check(matches(withText(postContent)));
-
-        // Check that it has zero stars
-        ViewInteraction textView3 = onView(
-                allOf(withId(R.id.postNumStars), withText("0"), isDisplayed()));
-        textView3.check(matches(withText("0")));
-         */
-
     }
 
     /**
